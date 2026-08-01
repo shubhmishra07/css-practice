@@ -1,8 +1,60 @@
+/* css(cascading style sheet) :
+
+ a language totaly made up for styling documents
+
+-------------------------------------------------------------------------------------------------------
+selector (kon kon se html tags ke upar css applied hogi)
+
+h1{                       h1--->(selector)
+    color:red;            color--->(property)
+}                         red--->(value)
+
+
+------------------------------------------------------------------------------------------------------
+Types of including style:
+1).inline
+    <h1 style: "color:red"></h1>         (css likhi ho html tag ke andar)
+
+
+2).<style>tag
+    <style>
+       h1{
+            color: red;                  (css ko alag se file na banakar ek tag ke andar likhna)
+       }
+    </style> 
+    
+    
+3). External style sheet 
+                                          (writing css in separate file and linking with html 
+                                          using link tag)
+    <link rel="stylesheet" href="style.css">
+
+**inline styling has highest priority**
+
+-------------------------------------------------------------------------------------------------------------
+
+Color Property   
+(used to set the color of foreground)
+
+ex: color : red;
+    color : pink;
+
+----------------------------------------------------------------------------------------------------------
+   
+
+Background Color Property   
+(used to set the color of background)
+
+ex: background color : red;
+    background color : pink;
+
+*/
+
+
 body{
     background:black;
     color:white;
 }
 
-h1{
-    color:red;
-}
+
+
