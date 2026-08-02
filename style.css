@@ -45,8 +45,22 @@ ex: color : red;
 Background Color Property   
 (used to set the color of background)
 
-ex: background color : red;
-    background color : pink;
+ex: background-color : red;
+    background-color : pink;
+
+**color system : 1)rgb(red, green, blue)   -----> range (0-255)
+                 2)hex(#redgreenblue)      -----> range (00-ff)
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+Selectors
+1).   Universal selector -------->  *{}
+2).   Element selector   -------->  h1{}
+3).   Id selector        -------->  #myId{}
+4).   Class selector     -------->  .myClass{}
+
 
 */
 
@@ -54,6 +68,10 @@ ex: background color : red;
 body{
     background:black;
     color:white;
+}
+
+#box{
+    background-color: blue;
 }
 
 
