@@ -66,29 +66,29 @@ Selectors
 
 
 Text properties
-1).text align: left/right/centre     (alignment parent tag ke hissab se set hoga)
-2).text decoration: underline/overline/line-through
+1). text align: left/right/centre     (alignment parent tag ke hissab se set hoga)
+2). text decoration: underline/overline/line-through
 3). font-weight: 100-900 , normal/bold/bolder/lighter   (light---dark)
-4). font-family: 
+4). font-family:                      (manage to set the style of font)
+5). font-size:                        (manage to set the size of font)
+6). line-height:                      (manage the gap between the line)
+7). text-transform:                   (uppercase/lowercase/capitalize/none)
 */
 
-
-body{
-    background:black;
-    color:white;
+h1{
+    text-align: center;
+    text-transform: capitalize;
 }
 
-#box{
-    background-color: blue;
+*{
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.heading{
-    color: red;
+#outer{
+    font-size: 25px;
 }
-
-
-button{
-    background-color: green;
+#inner{
+    font-size: 10px;
 }
 
 
