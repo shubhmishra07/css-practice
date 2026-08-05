@@ -203,6 +203,21 @@ help create a responsive website
 }
 
 
+------------------------------------------------------------------------------------------------------------------------
+
+
+Transitions:
+Transitions enable you to define the transition between the sttes of an element
+
+transition-property : property you want to transition(font-size, width etc.)
+transition-duration : 2s/4ms ..
+transition-timing-function : ease-in/ease-out/linear/steps ..
+transition-delay : 2s/4ms ..
+
+**transition-shorthand
+     transition: property name | duration | timing-function | delay
+
+
 */
 
 
