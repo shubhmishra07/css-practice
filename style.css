@@ -73,6 +73,94 @@ Text properties
 5). font-size:                        (manage to set the size of font)
 6). line-height:                      (manage the gap between the line)
 7). text-transform:                   (uppercase/lowercase/capitalize/none)
+
+
+------------------------------------------------------------------------------------------------------
+
+
+Box-Model in CSS
+1). Height -----> it sets the content area height
+2). width -----> it sets the content area width
+3). Border -----> itsets the border of a element
+      border-width
+      border-style (solid/dotted/dashed)
+      border-color
+      border-radius (round the corner of border)
+4). Padding ----> (space between border and content)
+      padding-left
+      padding-right
+      padding-top
+      padding-bottom
+5). Margin ----> (Gap between two boxes or border)
+     margin-left
+     margin-right
+     margin-top
+     margin-bottom
+
+
+---------------------------------------------------------------------------------------------------------------
+
+
+Display Property:
+display:inline/block/inline-block/none
+
+inline ----> takes only space required by the element (no margin / no padding)
+block ----> takes full space available in width
+inline-block ----> Simliar to inline but we can set margin and padding
+none ----> remove elment from document flow 
+
+**Alpha channel
+opacity(0 to 1)
+rgba----> (255,255,255,1)
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+Unit css(relative):
+1)Percentage(%)---> size as relative to an element's parent object
+2)em ---> relative to the font-size of parent / but width will be relative of font-size of element
+3)rem ---> relative to the font-size of element
+4)vh ---> relative to 1% viewport height
+5)vw ---> relative to 1% viewport weight
+
+
+----------------------------------------------------------------------------------------------------------------
+
+
+Position
+the position CSS property sets how an element is positioned in a document
+position: static/relative/absolute/fixed
+
+static - default position (The top,right,bottom,left,and z-index properties have no effect)
+relative - element is relative to itself (The top,right,bottom,left,and z-index will work)
+absolute - positioned relative to its closest positioned ancestor (removed from flow)
+fixed - positioned relative to browser.(removed from flow)
+sticky - positioned based on user's scroll position
+
+
+------------------------------------------------------------------------------------------------------------
+
+
+z-index
+it decides the stack level of elements
+Overlapping elements with a larger z-index cover those with a smaller one
+z-index: auto(0)
+z-index: 1/2/...
+z-index: -1/-2/... 
+
+
+------------------------------------------------------------------------------------------------------
+
+
+background-image/size/repeat:
+used to set an image as background
+
+background-image : url("image.jpeg");
+background-size : cover/contain/auto
+background-repeat : no repeat;
+
+
 */
 
 h1{
