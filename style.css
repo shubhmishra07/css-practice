@@ -260,6 +260,8 @@ To animate CSS elements
 */
 
 #loader{
+    height: 100px;
+    width: 100px;
     border: 20px solid aqua;
     border-top: 20px solid black;
     border-radius: 50%;
