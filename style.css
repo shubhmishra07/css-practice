@@ -262,8 +262,14 @@ To animate CSS elements
 #loader{
     height: 100px;
     width: 100px;
-    border: 20px solid aqua;
-    border-top: 20px solid black;
+    border: 10px solid aqua;
+    border-top: 10px solid black;
     border-radius: 50%;
+    animation: animate 2s ease-in 0.5s infinite;
+}
+
+@keyframes animate{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
 }
 
