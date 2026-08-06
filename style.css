@@ -218,7 +218,50 @@ transition-delay : 2s/4ms ..
      transition: property name | duration | timing-function | delay
 
 
+--------------------------------------------------------------------------------------------------------
+
+
+CSS Transform
+1)rotate
+      syntax:   transform: rotate/rotateX/rotateY/rotateZ(45deg);
+
+2)scale 
+      syntax:   transform: scale/scaleX/scaleY(2)(1,2);
+
+3)translate
+      syntax:   transform: translate/translateX/translateY(20px)(20px,50px);
+
+4)skew
+      syntax:   transform: skew(30deg);
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+Animation
+To animate CSS elements
+
+     @keyframe myName{
+       from{font-size : 20px; }
+       to{font-size : 30px; }
+    }
+
+**properties:
+     animation-name
+     animation-duration
+     animation-timing-function
+     animation-delay
+     animation-iteration-count
+     animation-direction   (normal/reverse/alternate/rev-alternate)
+
+**from - to ki jagah percentage bhi use kar sakte hai jaise 0% -> 50% -> 100%
+
+
 */
 
-
+#loader{
+    border: 20px solid aqua;
+    border-top: 20px solid black;
+    border-radius: 50%;
+}
 
